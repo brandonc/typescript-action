@@ -1,5 +1,5 @@
 import * as core from "@actions/core";
-import {setupMOTD} from "./motd";
+import { setupMOTD } from "./motd";
 
 describe("motd", () => {
   let inputSpy: jest.SpyInstance;
@@ -27,8 +27,9 @@ describe("motd", () => {
   });
 
   it("prints the given motd", async () => {
-    inputs.motd = "The repository was forthwith dragooned into a weltering shambles."
+    inputs.motd =
+      "The repository was forthwith dragooned into a weltering shambles.";
     motd();
-    expect(logSpy).toHaveBeenCalledWith(inputs.motd)
-  })
+    expect(logSpy).toHaveBeenCalledWith(inputs.motd);
+  });
 });
