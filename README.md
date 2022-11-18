@@ -2,13 +2,11 @@
 
 A template repository for building javascript github actions in Typescript. Here is the tooling setup:
 
-- Compiles typescript to a single file using [@vercel/ncc](https://github.com/vercel/ncc)
-- Jest + Typescript
-- Built-in Github Actions CI workflow with checks:
-  - Prettier formatting
-  - Build is up to date
-  - Tests
-- Pre-commit hook using Husky ensures build is up to date
+- [@vercel/ncc](https://github.com/vercel/ncc) compiles typescript to a single file
+- ts-jest testing
+- prettier formatting
+- CI checks
+- pre-commit protections
 
 ## Install
 
