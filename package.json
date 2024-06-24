@@ -24,7 +24,7 @@
     "typescript": "^5.5.2"
   },
   "engines": {
-    "node": ">=v16.18.0"
+    "node": ">=20"
   },
   "license": "MIT"
 }
