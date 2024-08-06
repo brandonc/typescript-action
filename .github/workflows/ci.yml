@@ -15,8 +15,8 @@ jobs:
         with:
           cache: npm
 
-      - name: npm ci
-        run: npm ci
+      - name: npm install
+        run: npm install
 
       - name: Format Check
         run: npm run format-check
