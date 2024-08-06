@@ -2,7 +2,7 @@
 
 A template repository for building javascript github actions in Typescript. Here is the tooling setup:
 
-- [@vercel/ncc](https://github.com/vercel/ncc) compiles typescript to a single file
+- [tsup](https://github.com/egoist/tsup) compiles typescript to a single file, including dependencies-- just add all dependencies to devDependencies
 - ts-jest testing
 - prettier formatting
 - CI checks
