@@ -16,7 +16,9 @@ jobs:
           cache: npm
 
       - name: npm ci
-        run: npm ci
+        run: |
+          rm package-lock.json
+          npm ci
 
       - name: Format Check
         run: npm run format-check
